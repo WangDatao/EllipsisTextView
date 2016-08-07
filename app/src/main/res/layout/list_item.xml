@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.easy.lindatao.ellipsistextview.widget.EllipsisTextView
+        android:id="@+id/list_ell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:maxLine="2"
+        app:drawableMarginLeft="5dp"
+        app:textColor="@color/colorPrimaryDark"/>
+
+
+</LinearLayout>

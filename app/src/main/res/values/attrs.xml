@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EllipsisTextView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="drawableMarginLeft" format="dimension"/>
+        <attr name="lineSpace" format="dimension"/>
+        <attr name="maxLine" format="integer"/>
+        <attr name="backgroundColor" format="color|reference"/>
+    </declare-styleable>
+</resources>
