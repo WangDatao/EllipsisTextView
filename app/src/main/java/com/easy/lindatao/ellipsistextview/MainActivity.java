@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+        setData();
     }
 
     private void initView()
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity
                 holder = (ViewHolder) convertView.getTag();
             }
 
-            holder.ellView.setText(mText.substring(0 , mText.length() - position));
+            holder.ellView.setText(mText);
             holder.ellView.clearDrawable();
             if(position == 0)
             {
@@ -97,6 +98,13 @@ public class MainActivity extends AppCompatActivity
                 holder.ellView.append(R.mipmap.label);
                 holder.ellView.append(R.mipmap.label);
 
+            }
+            else if (position == 3)
+            {
+                holder.ellView.append(R.mipmap.label);
+                holder.ellView.append(R.mipmap.label);
+                holder.ellView.append(R.mipmap.label);
+                holder.ellView.append(R.mipmap.label);
             }
 
             return convertView;
